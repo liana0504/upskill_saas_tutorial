@@ -51,20 +51,11 @@ h3 {
   border: none;
 }
 
-.navbar-default .navbar-brand {
-  color: white;
-}
-
-.navbar-default .navbar-brand:hover {
-  color: #FF9859;
-  opacity: .80;
-}
-
+.navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
   color: white;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-  color: #FF9859;
-  opacity: .80;
+  &:hover {
+    color: #FF9859;
+    opacity: .80;
+  }
 }
