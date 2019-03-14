@@ -14,9 +14,13 @@
  *= require_self
  */
  
- @import 'bootstrap-sprockets';
- @import 'bootstrap'; 
+@import 'bootstrap-sprockets';
+@import 'bootstrap'; 
+@import "font-awesome-sprockets";
+@import "font-awesome";
+ 
 
+// Typography Styles
 h1, h2, h3 {
   font-family: 'Special Elite', sans-serif;
 }
@@ -30,12 +34,14 @@ h3 {
   color: white;
 }
 
+// HomePage Styles
 .home-callout {
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
 }
 
+// Background Gradient
 .home-callout, .navbar {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bcf2c0+0,9ce2b4+44,67d9b9+100 */
   background: rgb(188,242,192); /* Old browsers */
@@ -45,7 +51,7 @@ h3 {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcf2c0', endColorstr='#67d9b9',GradientType=1 ); /* IE6-9 */
 }
 
-
+// Nav Styles
 .navbar {
   font-family: 'Special Elite', sans-serif;
   border: none;
