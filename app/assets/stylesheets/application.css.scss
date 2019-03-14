@@ -21,17 +21,25 @@
  
 
 // Typography Styles
-h1, h2, h3 {
+h1, h2, h3, p {
   font-family: 'Special Elite', sans-serif;
 }
 
-h1 {
+.home-callout h1 {
   color: #FF9859;
   font-size: 60px;
 }
 
+h2 {
+  color: #FF9859;
+}
+
 h3 {
   color: white;
+}
+
+p {
+  font-family: 'Scope One', sans-serif;
 }
 
 // HomePage Styles
@@ -53,8 +61,11 @@ h3 {
 
 // Nav Styles
 .navbar {
-  font-family: 'Special Elite', sans-serif;
+  font-family: 'Scope One', sans-serif;
   border: none;
+}
+.navbar-brand {
+  font-family: 'Special Elite', sans-serif;
 }
 
 .navbar-default .navbar-brand, 
