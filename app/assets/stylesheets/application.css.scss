@@ -22,16 +22,12 @@ h1, h2, h3 {
 }
 
 h1 {
-  color: #FF7700;
+  color: #FF9859;
   font-size: 60px;
 }
 
 h3 {
   color: white;
-}
-
-.navbar {
-  font-family: 'PT Mono', sans-serif;
 }
 
 .home-callout {
@@ -41,13 +37,34 @@ h3 {
 }
 
 .home-callout, .navbar {
-  //Gradient provided by @_ighosh at uiGradients.com
-  background: #34e89e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bcf2c0+0,9ce2b4+44,67d9b9+100 */
+  background: rgb(188,242,192); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(188,242,192,1) 0%, rgba(156,226,180,1) 44%, rgba(103,217,185,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, rgba(188,242,192,1) 0%,rgba(156,226,180,1) 44%,rgba(103,217,185,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, rgba(188,242,192,1) 0%,rgba(156,226,180,1) 44%,rgba(103,217,185,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcf2c0', endColorstr='#67d9b9',GradientType=1 ); /* IE6-9 */
 }
 
+
 .navbar {
+  font-family: 'Special Elite', sans-serif;
   border: none;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #FF9859;
+  opacity: .80;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #FF9859;
+  opacity: .80;
 }
