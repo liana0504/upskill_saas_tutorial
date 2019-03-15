@@ -1,21 +1,39 @@
-<div class="container text-center">
-  <h2>Hit Us Up</h2>
+<div class="container">
   
-  <%= form_for "/contacts" do |f| %>
-    <%= f.label :name %>
-    <%= f.text_field :name %>
-    <br>
+  <div class="row">
+    <h2 class="text-center">Hit Us Up</h2>
     
-    <%= f.label :email %>
-    <%= f.text_field :email %>
-    <br>
+    <div class="col-md-4 col-md-offset-4">
+      <div class="well">
+        <%= form_for "/contacts" do |f| %>
+         <div class="form-group text-center">
+            <%= f.label :name %>
+            <%= f.text_field :name, class: 'form-control' %>
+            <br>
+          </div>
+            
+          <div class="form-group text-center">
+            <%= f.label :email %>
+            <%= f.text_field :email, class: 'form-control' %>
+            <br>
+          </div>
+          
+          <div class="form-group text-center">
+            <%= f.label :comments %>
+            <%= f.text_area :comments, class: 'form-control' %>
+            <br>
+          </div>
+            
+          <div class="form-group text-center">
+            <%= f.submit 'submit', class: 'btn btn-warning' %>
+          </div>
+        <% end %>
+      </div>
+    </div>
     
-    <%= f.label :comments %>
-    <%= f.text_area :comments %>
-    <br>
-    
-    <%= f.submit 'Submit' %>
-  <% end %>
+  </div>
+
+</div>
   
   <!--<form>-->
   <!--  <label>Name:</label>-->
