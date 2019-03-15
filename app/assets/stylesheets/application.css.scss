@@ -95,3 +95,14 @@ p {
   color: #FF9859;
   background-color: #bcf2c0;
 }
+
+.form-control:focus {
+  border-color: #67d9b9;
+}
+
+.btn-warning:hover {
+  background-color: #FF9859;
+  &:hover, &:focus {
+    border-color: orange;
+  }
+}
