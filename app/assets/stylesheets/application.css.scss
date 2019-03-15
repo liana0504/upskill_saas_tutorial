@@ -76,3 +76,15 @@ p {
     opacity: .80;
   }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FF9859;
+  opacity: .80;
+}
+
+.navbar-default .navbar-toggle {
+  border: 1px solid white;
+  &:hover, &:focus {
+    background-color: #bcf2c0;
+  }
+}
