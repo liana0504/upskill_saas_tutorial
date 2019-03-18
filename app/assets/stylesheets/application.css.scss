@@ -112,9 +112,24 @@ input, textarea, select, button {
 }
 
 .col-md-4 {
-  font-family: 'Special Elite', sans-serif;
+  font-family: 'Scope One', sans-serif;
   color: #FF9859;
   text-align: center;
   font-size: 15px;
 }
 
+.alert-success {
+  font-family: 'Scope One', sans-serif;
+  color: #FF9859;
+  text-align: center;
+  background-color :#bcf2c0;
+  font-size: 18px;
+}
+
+.alert-danger {
+  font-family: 'Scope One', sans-serif;
+  color: white;
+  text-align: center;
+  background-color: #FF9859;
+  font size: 18px;
+}
